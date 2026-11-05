@@ -1,0 +1,16 @@
+name: MeatPlayer
+game: Super Meat Boy 3D
+requires:
+  version: 0.6.8
+Super Meat Boy 3D:
+  progression_balancing: 50
+  accessibility: items
+  # all_bosses or beat_the_game
+  goal: all_bosses
+  warpzonesanity: false
+  bandagesanity: false
+  darksanity: false
+  speedsanity: false
+  # Percent of filler replaced with Tofu Trap: 0=none, 100=all.
+  # Weight applies to the filler slots remaining for your selected sanity options.
+  tofu_trap_filler_weight: 0
